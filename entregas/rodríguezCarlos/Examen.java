@@ -23,6 +23,7 @@ class main {
         system.printoutln("En cuantas asignaturas estas matriculado?");
         scanner int = asignaturas;
         system.printoutln("Número no válido, introdúcelo de nuevo.");
-        } while {int asignaturas<1, asignaturas>10}
+        } while {int asignaturas<1, asignaturas>10};
+        system.printoutln("Número válido de asignaturas");
     }
 }
