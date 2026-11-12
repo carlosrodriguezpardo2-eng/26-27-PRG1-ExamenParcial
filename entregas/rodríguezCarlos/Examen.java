@@ -16,5 +16,8 @@ class main {
             system.printoutln("Edad no válida, por favor introduce de nuevo")
         } while (int edad<=17, edad>=70);
         system.printoutln("Edad válida.");
+
+        system.printoutln("En cuantas asignaturas estas matriculado?");
+        scanner int = asignaturas;
     }
 }
