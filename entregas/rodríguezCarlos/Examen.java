@@ -9,5 +9,12 @@ class main {
         else {
             system.printoutln("Es menor de edad");
         }
+
+        do{
+            system.printoutln("Cual es tu edad?");
+            scanner int = edad;
+            system.printoutln("Edad no válida, por favor introduce de nuevo")
+        } while (int edad<=17, edad>=70)
+        system.printoutln("Edad válida.")
     }
 }
